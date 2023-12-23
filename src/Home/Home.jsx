@@ -1,4 +1,5 @@
 import About from "../page/About";
+import Contact from "../page/Contact";
 import Exprience from "../page/Exprience";
 import Header from "../page/Header";
 import Portfolio from "../page/Portfolio";
@@ -13,6 +14,7 @@ const Home = () => {
           <Exprience />
           <Servies />
           <Portfolio />
+          <Contact />
         </div>
     );
 };
