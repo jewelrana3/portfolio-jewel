@@ -37,14 +37,14 @@ const Header = () => {
                 <button className="btn">Download Resume</button>
                 <button className="btn">Let's talk</button>
             </div>
-            <div>
+            <div className='grid grid-cols-1 lg:grid-cols-3 mx-auto'>
                 <div>
                     <Link to='' target=''> <ImFacebook /></Link>
                     <Link to='https://github.com/jewelrana3' target='_blank'> <FiGithub /></Link>
                     <Link to='https://www.linkedin.com/in/md-jewel-rana-585bb2251/' target='_blank'> <FaLinkedinIn /></Link>
                 </div>
                 <div>
-                  <img src="https://lottiefiles.com/animations/developer-front-end-Wtv3yP2k4r" alt="" />
+                  <img src="https://i.ibb.co/HKC62CJ/Animation-1703298875441.gif" alt="" />
                 </div>
                 <div>
                     <Link className='scroll-down rotate'>Scroll Down</Link>

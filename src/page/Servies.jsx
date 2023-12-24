@@ -9,7 +9,7 @@ const Servies = () => {
                 <h1 className="text-3xl about-head">My Servicese</h1>
               <p></p>
             </div>
-            <div className="flex justify-center items-center mt-10 gap-10 servies-div">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-20 mt-12 servies-div">
                 <div className="servics-three-div text-left">
                     <p className="servies-frontend text-center text-black text-xl">Frontend Development</p>
                     <div className="one-div">

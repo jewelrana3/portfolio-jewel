@@ -7,13 +7,17 @@ const About = () => {
                 <p className="color">My Introduction</p>
                 <h1 className="text-3xl about-head">About Me</h1>
             </div>
-            <div className="flex justify-between px-28 gap-40 mt-20">
-                <div>
-                    <img className="h-96 w-96" src="https://i.ibb.co/pJv2h9s/Screenshot-2023-12-23-110308.jpg" alt="pic" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mt-20 mx-auto">
+                <div className="">
+                    <div className="backgroundColor relative">
+                    </div>
+                    <div className="absolute about-img ">
+                        <img className="" src="https://i.ibb.co/pJv2h9s/Screenshot-2023-12-23-110308.jpg" alt="pic" />
+                    </div>
                 </div>
                 <div>
-                    <div className="flex gap-10 ">
-                        <div className="h-40 w-40 rounded-lg card-details text-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 ">
+                        <div className="h-40 w-40 rounded-lg card-details">
                             <p className="js">JS</p>
                             <h1>Frontend</h1>
                             <p>10+ project</p>
@@ -37,7 +41,6 @@ const About = () => {
                         <button className="btn2 text-left">Let's talk</button>
                     </div>
                 </div>
-
             </div>
         </div>
     );
