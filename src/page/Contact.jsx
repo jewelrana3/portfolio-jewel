@@ -1,22 +1,24 @@
 import { PiMessengerLogoFill } from "react-icons/pi";
+import { FaWhatsapp } from "react-icons/fa";
+import { BiMessageRoundedDots } from "react-icons/bi";
 
 const Contact = () => {
     return (
         <div className="text-center mb-20">
             <div>
                 <p className="color">What I Offer</p>
-                <h1 className="text-3xl about-head">My Servicese</h1>
+                <h1 className="text-3xl about-head">Contact Me</h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-16 px-20 gap-6">
-                <div>
-                    <div className="contact-message mt-4">
-                        <p className="flex justify-center items-center"><PiMessengerLogoFill /></p>
-                        <p className="color">Messenger</p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 lg:ml-20 px-20 lg:px-48">
+                <div className="">
+                    <div className="contact-message mt-4 ">
+                        <p className="flex justify-center items-center"><BiMessageRoundedDots /></p>
+                        <p className="color">Message</p>
                         <p className="send-contact">Send a message</p>
                     </div>
-                    <div className="contact-message mt-4">
-                        <p className="flex justify-center items-center"><PiMessengerLogoFill /></p>
-                        <p className="color">Messenger</p>
+                    <div className="contact-message mt-4 ">
+                        <p className="flex justify-center items-center"><FaWhatsapp /></p>
+                        <p className="color">WhatsApp</p>
                         <p className="send-contact">Send a message</p>
                     </div>
                     <div className="contact-message mt-4">
@@ -26,7 +28,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className="contact-input mt-6">
+                <div className="contact-input mt-6 ">
                     <div className="input-card">
                         <input type="text" name="" id="" placeholder="Your Full Name" />
                     </div>

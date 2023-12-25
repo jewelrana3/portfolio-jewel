@@ -48,7 +48,7 @@ const Servies = () => {
                     </div>
                 </div>
                 <div className="servics-three-div text-left">
-                    <p className="servies-frontend text-center text-black text-xl">Frontend Development</p>
+                    <p className="servies-frontend text-center text-black text-xl">Backend Development</p>
                     <div className="one-div">
                         <div className="flex mt-4 gap-6">
                             <p> <CustomIcon /></p>
@@ -85,7 +85,7 @@ const Servies = () => {
                     </div>
                 </div>
                 <div className="servics-three-div text-left">
-                    <p className="servies-frontend text-center text-black text-xl">Frontend Development</p>
+                    <p className="servies-frontend text-center text-black text-xl">UI/UX Development</p>
                     <div className="one-div">
                         <div className="flex mt-4 gap-6">
                             <p> <CustomIcon /></p>

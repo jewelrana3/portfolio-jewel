@@ -198,7 +198,7 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -209,7 +209,7 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -220,7 +220,7 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -231,7 +231,7 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -242,7 +242,7 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
@@ -253,11 +253,11 @@ const Portfolio = () => {
                                 <p className='text-white mt-2 font-semibold'>ESMAILISE</p>
                             </div>
                             <div className='sider-des'>
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe nobis quam quasi in esse! Recusandae molestiae accusamus quasi neque, at odit!</p>
                             </div>
                         </SwiperSlide>
                     </div>
-               
+
                 </Swiper>
             </>
         </div>

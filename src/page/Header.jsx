@@ -9,7 +9,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 const Header = () => {
     return (
         <div className='text-center'>
-
             <div className=" mt-20">
                 <p>Hello,I'm</p>
                 <h1 className="text-3xl">MD Jewel</h1>
@@ -32,22 +31,23 @@ const Header = () => {
                     repeat={Infinity}
                 />
             </div>
-
             <div className="btn-box">
                 <button className="btn">Download Resume</button>
                 <button className="btn">Let's talk</button>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 mx-auto'>
-                <div>
-                    <Link to='' target=''> <ImFacebook /></Link>
-                    <Link to='https://github.com/jewelrana3' target='_blank'> <FiGithub /></Link>
-                    <Link to='https://www.linkedin.com/in/md-jewel-rana-585bb2251/' target='_blank'> <FaLinkedinIn /></Link>
+            <div className='flex items-center justify-between md:px-28 px-10 gap-10 mt-20'>
+                <div className='icons-header'>
+                    <Link  to='' target=''> <ImFacebook className='mt-3'/></Link>
+                    <Link  to='https://github.com/jewelrana3' target='_blank'> <FiGithub className='mt-3'/></Link>
+                    <Link  to='https://www.linkedin.com/in/md-jewel-rana-585bb2251/' target='_blank'> <FaLinkedinIn className='mt-3'/></Link>
+                </div>
+                <div className='header-image flex items-center justify-center'>
+                    <div>
+                        <img className='' src="https://i.ibb.co/xSMG06H/MGp-DPEDrq-F-1.gif" alt="" />
+                    </div>
                 </div>
                 <div>
-                  <img src="https://i.ibb.co/HKC62CJ/Animation-1703298875441.gif" alt="" />
-                </div>
-                <div>
-                    <Link className='scroll-down rotate'>Scroll Down</Link>
+                    <Link className='scroll-down rotate'><span className=''>Scroll Down</span></Link>
                 </div>
             </div>
 

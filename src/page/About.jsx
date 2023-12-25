@@ -7,16 +7,18 @@ const About = () => {
                 <p className="color">My Introduction</p>
                 <h1 className="text-3xl about-head">About Me</h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mt-20 mx-auto">
-                <div className="">
-                    <div className="backgroundColor relative">
-                    </div>
-                    <div className="absolute about-img ">
-                        <img className="" src="https://i.ibb.co/pJv2h9s/Screenshot-2023-12-23-110308.jpg" alt="pic" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:px-10 lg:px-10 lg:gap-12 px-20 gap-10 mt-20 ">
+                <div className="flex items-center justify-center image-header">
+                    <div className="">
+                        <div className="backgroundColor relative">
+                        </div>
+                        <div className="absolute about-img ">
+                            <img className="" src="https://i.ibb.co/pJv2h9s/Screenshot-2023-12-23-110308.jpg" alt="pic" />
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="grid grid-cols-2 lg:grid-cols-3 ">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-14">
                         <div className="h-40 w-40 rounded-lg card-details">
                             <p className="js">JS</p>
                             <h1>Frontend</h1>

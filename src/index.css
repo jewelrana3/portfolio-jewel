@@ -44,7 +44,7 @@ body {
 .swiper {
   margin-top: 30px;
   width: 40%;
-  height: 350px;
+  height: 400px;
 }
 
 .swiper-slide {
@@ -126,6 +126,30 @@ body {
 
 .btn-box .btn:hover::before {
   width: 100%
+}
+
+/* header section */
+.header-image {
+  background: #3bc9db;
+  height: 175px;
+  width: 300px;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+
+}
+
+.icons-header {
+  color: var(--color-primary);
+}
+
+.scroll-down {
+  color: var(--color-primary);
+}
+
+.header-image img {
+  width: 150px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 /* scroll down */
@@ -260,8 +284,9 @@ body {
   background: var(--color-bg-variant);
   border: 1px solid var(--color-bg-variant);
   transition: var(--transition);
-  padding: 30px;
- width: auto;
+  padding: 20px;
+
+
 
 }
 
@@ -410,7 +435,7 @@ body {
 
 /* contact section */
 .contact-message {
-  /* width: 250px; */
+
   border-radius: 6px;
   padding: 24px;
   background: var(--color-bg-variant);
@@ -418,10 +443,9 @@ body {
   transition: var(--transition);
 }
 
-.contact-input .input-card input,textarea{
-  position: relative;
+.contact-input .input-card input,
+textarea {
   width: 100%;
-  /* margin: .8rem 0; */
 }
 
 .send-contact {
@@ -454,7 +478,7 @@ textarea {
 .footer {
   background: var(--color-primary);
   padding: 80px 60px;
-  height: 400px;
+  height: 560px;
 }
 
 .footer .jewel {
@@ -499,4 +523,59 @@ textarea {
 .last-des {
   font-size: 13px;
   color: black;
+}
+
+.footer-p p {
+  margin-top: 15px;
+  color: #1f1f38;
+}
+
+
+
+/* @media screen */
+@media (max-width:1024px) {
+  .image-header {
+    margin-top: -230px;
+  }
+
+  .swiper {
+    margin-top: 30px;
+    width: 70%;
+    height: 400px;
+  }
+}
+
+@media (max-width:768px) {
+  .image-header {
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width:500px) {
+  .icons-header {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+
+  .header-image {
+    margin-left: 40px;
+  }
+}
+
+
+@media (min-width:1024px) {
+
+  .contact-message {
+    width: 250px;
+
+  }
+
+  .contact-input .input-card input,
+  textarea {
+    width: 100%;
+  }
 }
