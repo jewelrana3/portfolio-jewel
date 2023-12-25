@@ -1,6 +1,7 @@
 import { PiMessengerLogoFill } from "react-icons/pi";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiMessageRoundedDots } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
@@ -19,12 +20,12 @@ const Contact = () => {
                     <div className="contact-message mt-4 ">
                         <p className="flex justify-center items-center"><FaWhatsapp /></p>
                         <p className="color">WhatsApp</p>
-                        <p className="send-contact">Send a message</p>
+                        <Link to="https://wa.me/8801947603852"><p className="send-contact">Send a message</p></Link>
                     </div>
                     <div className="contact-message mt-4">
                         <p className="flex justify-center items-center"><PiMessengerLogoFill /></p>
                         <p className="color">Messenger</p>
-                        <p className="send-contact">Send a message</p>
+                        <Link to="https://m.me/jewelrana2129"> <p className="send-contact">Send a message</p></Link>
                     </div>
 
                 </div>
@@ -36,7 +37,7 @@ const Contact = () => {
                         <input type="email" name="" id="" placeholder="Your Email" />
                     </div>
                     <div className="mt-4 input-card">
-                        <textarea style={{ resize: 'none' }} name="" id=""  placeholder="Your Message" />
+                        <textarea style={{ resize: 'none' }} name="" id="" placeholder="Your Message" />
                     </div>
                     <div className="text-left contact-btn">
                         <button >Send</button>

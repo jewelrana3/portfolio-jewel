@@ -123,8 +123,8 @@ const Portfolio = () => {
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <Link to="" className="btn3 font-semibold">Github</Link>
-                            <Link to="" className="btn3 font-semibold">Live Site</Link>
+                            <Link to="https://github.com/jewelrana3/nexus-software-soluation" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://nexus-software-soluation.vercel.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>

@@ -32,8 +32,8 @@ const Header = () => {
                 />
             </div>
             <div className="btn-box">
-                <button className="btn">Download Resume</button>
-                <button className="btn">Let's talk</button>
+                <Link to="https://drive.google.com/file/d/1o3jlYYJZoet-QfyF1eP5eBRVXkaBjFLi/view?usp=sharing" className="btn">Download Resume</Link>
+                <a href="#contact" className="btn">Let's talk</a>
             </div>
             <div className='flex items-center justify-between md:px-28 px-10 gap-10 mt-20'>
                 <div className='icons-header'>
