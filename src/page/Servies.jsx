@@ -3,7 +3,7 @@ import CustomIcon from "./CustomIcon";
 
 const Servies = () => {
     return (
-        <div className="mt-40 text-center mb-20">
+        <div className="mt-40 text-center mb-20" id='servies'>
             <div>
                 <p className="color">What I Offer</p>
                 <h1 className="text-3xl about-head">My Servicese</h1>
@@ -52,35 +52,35 @@ const Servies = () => {
                     <div className="one-div">
                         <div className="flex mt-4 gap-6">
                             <p> <CustomIcon /></p>
-                            <p>I develop the user interface.</p>
+                            <p>Create Server From scratch with NodeJS and ExpressJS.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Web page development.</p>
+                            <p>With In Database Management system - MongoDB.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Understanding of HTML, CSS,  and <br /> JavaScript</p>
+                            <p>Understanding of RESTful API design principles.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Experience with JavaScript  frameworks <br /> React</p>
+                            <p>Knowledge of server-side caching,and performance.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Familiarity with browser developer  <br /> tools</p>
+                            <p>MongoDB CRUD Operations.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Understanding of responsive  design <br /> principles</p>
+                            <p>Enable Data security With JWT(JSON Web Token).</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Knowledge of cross-browser  compatibility issues</p>
+                            <p>Work with Environment Variables.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Experience with version control systems such as Git</p>
+                            <p>NodeJS login authentication.</p>
                         </div>
                     </div>
                 </div>
@@ -89,36 +89,29 @@ const Servies = () => {
                     <div className="one-div">
                         <div className="flex mt-4 gap-6">
                             <p> <CustomIcon /></p>
-                            <p>I develop the user interface.</p>
+                            <p>Familiarity with design software such as Adobe XD, Figma.</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Web page development.</p>
+                            <p>Understanding of user-centered design principles and user experience (UX) design</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Understanding of HTML, CSS,  and <br /> JavaScript</p>
+                            <p>Understanding of responsive design principles</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Experience with JavaScript  frameworks <br /> React</p>
+                            <p>Knowledge of typography, color theory, and layout principles</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Familiarity with browser developer  <br /> tools</p>
+                            <p>Experience with user research and testing methodologies</p>
                         </div>
                         <div className="flex mt-4 items-center gap-6 text-white">
                             <p> <CustomIcon /></p>
-                            <p>Understanding of responsive  design <br /> principles</p>
+                            <p>Strong attention to detail and ability to iterate on designs based on feedback.</p>
                         </div>
-                        <div className="flex mt-4 items-center gap-6 text-white">
-                            <p> <CustomIcon /></p>
-                            <p>Knowledge of cross-browser  compatibility issues</p>
-                        </div>
-                        <div className="flex mt-4 items-center gap-6 text-white">
-                            <p> <CustomIcon /></p>
-                            <p>Experience with version control systems such as Git</p>
-                        </div>
+                       
                     </div>
                 </div>
                 

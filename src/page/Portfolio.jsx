@@ -10,10 +10,11 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
-        <div className="mt-40 text-center mb-20">
+        <div className="mt-40 text-center mb-20" id='portfolio'>
             <div>
                 <p className="color">What I Offer</p>
                 <h1 className="text-3xl about-head">My Portfolio</h1>
@@ -24,15 +25,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/zRBwjbN/Screenshot-2023-08-31-070259.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
-                            <p className="server-des">css</p>
+                            <p className="server-des">tailwind</p>
                             <p className="server-des">react</p>
+                            <p className="server-des">mongoDB</p>
                         </div>
-                        <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+                        <h2 className="mt-16">Recipe Restarant (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/recipe-resturent-client" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://new-10-project.web.app/" className="btn3 font-semibold" target="_blank">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -41,15 +43,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/McpVkVk/Annotation-2023-08-30-080111.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
-                            <p className="server-des">css</p>
+                            <p className="server-des">tailwind</p>
                             <p className="server-des">react</p>
+                            <p className="server-des">mongoDB</p>
                         </div>
-                        <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+                        <h2 className="mt-16">Toy MarketPlace (MERN Stack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/toy-marketplace-client" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://toy-marketplace-54ca0.web.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -58,15 +61,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/R7Xtjsx/Screenshot-2023-09-01-090741.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
-                            <p className="server-des">css</p>
+                            <p className="server-des">tailwind</p>
                             <p className="server-des">react</p>
+                            <p className="server-des">mongoDB</p>
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/school-camp-client" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://assignment-12-a51e6.web.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -75,15 +79,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/KwJjJkH/Screenshot-2023-11-18-185700.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
                             <p className="server-des">css</p>
-                            <p className="server-des">react</p>
+                            <p className="server-des">javaScript</p>
+                            <p className="server-des">bootstrap</p>
                         </div>
-                        <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+                        <h2 className="mt-16">We Provide Effective Legal (Frontend Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="#" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://legendary-custard-e5d492.netlify.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -92,15 +97,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/6NnFXCC/Screenshot-2023-11-18-143916.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
-                            <p className="server-des">css</p>
+                            <p className="server-des">tailwind</p>
                             <p className="server-des">react</p>
+                            <p className="server-des">mongoDB</p>
                         </div>
-                        <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+                        <h2 className="mt-16">Electronics Ecomerce (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/electronics-ecomerce" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://eocomerce-electronics.web.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -109,15 +115,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/bN6YLKB/Screenshot-2023-09-21-120824.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
                             <p className="server-des">css</p>
                             <p className="server-des">react</p>
+                            <p className="server-des">tailwind</p>
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="" className="btn3 font-semibold">Github</Link>
+                            <Link to="" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -126,15 +133,16 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/f8nYtkX/Portfolio-Career-1024x512.png" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-2">
                             <p className="server-des">Html</p>
                             <p className="server-des">css</p>
+                            <p className="server-des">javaScript</p>
                             <p className="server-des">react</p>
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/career-hub" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://career-hub-two.vercel.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -143,15 +151,15 @@ const Portfolio = () => {
                         <img className="w-80 h-56 rounded-2xl" src="https://i.ibb.co/8M3YrcV/Screenshot-2023-11-18-185103.jpg" alt="" />
                     </div>
                     <div>
-                        <div className="flex items-center justify-center -mt-12 gap-8">
+                        <div className="flex items-center justify-center -mt-12 gap-3">
                             <p className="server-des">Html</p>
-                            <p className="server-des">css</p>
-                            <p className="server-des">react</p>
+                            <p className="server-des">tailwind</p>
+                            <p className="server-des">javaScript</p>
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/real-project" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://jewelrana3.github.io/real-project/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>
@@ -167,8 +175,8 @@ const Portfolio = () => {
                         </div>
                         <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
                         <div className="btn-box3">
-                            <button className="btn3 font-semibold">Github</button>
-                            <button className="btn3 font-semibold">Live Site</button>
+                            <Link to="https://github.com/jewelrana3/weather4" className="btn3 font-semibold">Github</Link>
+                            <Link to="https://weather-project-woad.vercel.app/" className="btn3 font-semibold">Live Site</Link>
                         </div>
                     </div>
                 </div>

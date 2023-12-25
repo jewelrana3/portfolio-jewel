@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <div className="mt-40 text-center">
+        <div className="mt-40 text-center" id="about">
             <div>
                 <p className="color">My Introduction</p>
                 <h1 className="text-3xl about-head">About Me</h1>
@@ -21,21 +21,21 @@ const About = () => {
                     <div className="grid grid-cols-2 lg:grid-cols-3 gap-14">
                         <div className="h-40 w-40 rounded-lg card-details">
                             <p className="js">JS</p>
-                            <h1>Frontend</h1>
-                            <p>10+ project</p>
+                            <h1 className="mt-7 font-semibold">Frontend</h1>
+                            <p className="text-sm project">15+ project</p>
                         </div>
                         <div className="h-40 w-40 rounded-lg card-details">
                             <div className="h-10 mt-2 bg-black inline-block">
                                 <img className="h-10 bg-transparent" src="https://i.ibb.co/yYrQqw0/Screenshot-2023-12-23-115157.jpg" alt="pic" />
                             </div>
 
-                            <h1>Fullstack</h1>
-                            <p>5+ project</p>
+                            <h1 className="mt-4 font-bold">Fullstack</h1>
+                            <p className="project">5+ project</p>
                         </div>
                         <div className="h-40 w-40 rounded-lg card-details">
                             <p className="js ">git</p>
-                            <h1></h1>
-                            <p>40+ projects</p>
+                            <h1 className="font-bold mt-6">Github</h1>
+                            <p className=" project">50+ projects</p>
                         </div>
                     </div>
                     <p className="text-left mt-3 text-xl about-des">Web developer, with extensive knowledge and more than 3 <br /> years of experience, working in web technologies and Ui / Ux <br /> design, delivering quality work.</p>

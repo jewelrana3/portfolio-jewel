@@ -8,7 +8,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <div className='text-center'>
+        <div className='text-center' id='header'>
             <div className=" mt-20">
                 <p>Hello,I'm</p>
                 <h1 className="text-3xl">MD Jewel</h1>
@@ -39,7 +39,7 @@ const Header = () => {
                 <div className='icons-header'>
                     <Link  to='' target=''> <ImFacebook className='mt-3'/></Link>
                     <Link  to='https://github.com/jewelrana3' target='_blank'> <FiGithub className='mt-3'/></Link>
-                    <Link  to='https://www.linkedin.com/in/md-jewel-rana-585bb2251/' target='_blank'> <FaLinkedinIn className='mt-3'/></Link>
+                    <Link  to='https://www.linkedin.com/in/juyel-haqu/' target='_blank'> <FaLinkedinIn className='mt-3'/></Link>
                 </div>
                 <div className='header-image flex items-center justify-center'>
                     <div>
@@ -47,7 +47,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div>
-                    <Link className='scroll-down rotate'><span className=''>Scroll Down</span></Link>
+                    <p className='scroll-down rotate'><a href='#contact'>Scroll Down</a></p>
                 </div>
             </div>
 

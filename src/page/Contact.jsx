@@ -4,7 +4,7 @@ import { BiMessageRoundedDots } from "react-icons/bi";
 
 const Contact = () => {
     return (
-        <div className="text-center mb-20">
+        <div className="text-center mb-20" id="contact">
             <div>
                 <p className="color">What I Offer</p>
                 <h1 className="text-3xl about-head">Contact Me</h1>
