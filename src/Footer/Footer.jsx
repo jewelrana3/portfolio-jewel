@@ -44,7 +44,7 @@ const Footer = () => {
             <FaLinkedinIn className="icons" />
           </Link>
         </div>
-        <div className="mt-10 last-des">
+        <div className="mt-8 last-des">
           <h5>&copy; JUYEL 2021-2023. All rights reserved.</h5>
         </div>
       </div>
