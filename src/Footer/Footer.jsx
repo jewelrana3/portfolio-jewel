@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="text-center footer lg:h-96 w-full">
-      <h2 className="jewel">JEWEL</h2>
+      <h2 className="jewel">JUYEL</h2>
       <div className="md:flex items-center justify-center gap-9 mt-4 footer-p">
         <ul className="md:flex gap-5">
           <li>
@@ -45,7 +45,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="mt-10 last-des">
-          <h5>&copy; JEWEL 2021-2023. All rights reserved.</h5>
+          <h5>&copy; JUYEL 2021-2023. All rights reserved.</h5>
         </div>
       </div>
     </div>

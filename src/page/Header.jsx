@@ -9,7 +9,7 @@ const Header = () => {
     <div className="text-center" id="header">
       <div className=" mt-20">
         <p>Hello,I'm</p>
-        <h1 className="text-3xl">MD Jewel</h1>
+        <h1 className="text-3xl"> Juyel</h1>
       </div>
       <div className="text-center mt-5">
         <TypeAnimation
@@ -18,8 +18,6 @@ const Header = () => {
             "Frontend Developer",
             2000, // wait 1s before replacing "Mice" with "Hamsters"
             "MERN Stack Developer",
-            2000,
-            "Full Stack Develoer",
             2000,
           ]}
           wrapper="span"
