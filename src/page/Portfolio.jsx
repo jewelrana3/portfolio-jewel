@@ -28,13 +28,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">tailwind</p>
               <p className="server-des">react</p>
               <p className="server-des">mongoDB</p>
-            </div>
-            <h2 className="mt-16">Recipe Restarant (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Recipe Restarant Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/recipe-resturent-client"
@@ -61,13 +61,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">tailwind</p>
               <p className="server-des">react</p>
               <p className="server-des">mongoDB</p>
-            </div>
-            <h2 className="mt-16">Toy MarketPlace (MERN Stack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Toy MarketPlace Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/toy-marketplace-client"
@@ -93,13 +93,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">tailwind</p>
               <p className="server-des">react</p>
               <p className="server-des">mongoDB</p>
-            </div>
-            <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Sports Club MERN Stack Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/school-camp-client"
@@ -125,14 +125,14 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">css</p>
               <p className="server-des">javaScript</p>
               <p className="server-des">bootstrap</p>
-            </div>
+            </div> */}
             <h2 className="mt-16">
-              We Provide Effective Legal (Frontend Website)
+              We Provide Effective Legal Frontend Website
             </h2>
             <div className="btn-box3">
               <Link to="#" className="btn3 font-semibold">
@@ -156,13 +156,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">tailwind</p>
               <p className="server-des">react</p>
               <p className="server-des">mongoDB</p>
-            </div>
-            <h2 className="mt-16">Electronics Ecomerce (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Electronics Ecomerce Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/electronics-ecomerce"
@@ -188,13 +188,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">css</p>
               <p className="server-des">react</p>
               <p className="server-des">tailwind</p>
-            </div>
-            <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Ferfew Portal Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/nexus-software-soluation"
@@ -220,13 +220,13 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-2">
+            {/* <div className="flex items-center justify-center -mt-12 gap-2">
               <p className="server-des">Html</p>
               <p className="server-des">css</p>
               <p className="server-des">javaScript</p>
               <p className="server-des">react</p>
-            </div>
-            <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Career Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/career-hub"
@@ -252,12 +252,12 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-3">
+            {/* <div className="flex items-center justify-center -mt-12 gap-3">
               <p className="server-des">Html</p>
               <p className="server-des">tailwind</p>
               <p className="server-des">javaScript</p>
-            </div>
-            <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">G3 Architects Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/real-project"
@@ -283,12 +283,12 @@ const Portfolio = () => {
             />
           </div>
           <div>
-            <div className="flex items-center justify-center -mt-12 gap-8">
+            {/* <div className="flex items-center justify-center -mt-12 gap-8">
               <p className="server-des">Html</p>
               <p className="server-des">css</p>
               <p className="server-des">react</p>
-            </div>
-            <h2 className="mt-16">Doctor Portal (Fullstack Website)</h2>
+            </div> */}
+            <h2 className="mt-16">Weather App Frontend Website</h2>
             <div className="btn-box3">
               <Link
                 to="https://github.com/jewelrana3/weather4"

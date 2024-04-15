@@ -155,7 +155,7 @@ const Exprience = () => {
               </div>
               <div>
                 <h2>Node.JS</h2>
-                <h2 className="Intermediate">Intermediate</h2>
+                <h2 className="Intermediate">Experienced</h2>
               </div>
             </div>
             <div className="flex items-center  gap-7">
@@ -175,7 +175,7 @@ const Exprience = () => {
               </div>
               <div>
                 <h2>Express.JS</h2>
-                <h2 className="Intermediate">Intermediate</h2>
+                <h2 className="Intermediate">Experienced</h2>
               </div>
             </div>
           </div>
@@ -196,8 +196,8 @@ const Exprience = () => {
                 </svg>
               </div>
               <div>
-                <h2>HTML5</h2>
-                <h2 className="Intermediate">Intermediate</h2>
+                <h2>MongoDB</h2>
+                <h2 className="Intermediate">Experienced</h2>
               </div>
             </div>
             <div className="flex items-center  gap-7"></div>

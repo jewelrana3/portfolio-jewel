@@ -44,7 +44,7 @@ const About = () => {
             </div>
           </div>
           <p className="text-left mt-3 text-xl about-des">
-            Web developer, with extensive knowledge and more than 3 years of
+            Web developer, with extensive knowledge and more than 1.5 years of
             experience, working in web technologies and Ui / Ux design,
             delivering quality work.
           </p>
